@@ -42,10 +42,10 @@ print("Customer One Items:")
 print(customer_one_itemization)
 
 #18
-print("Customer One Total:")
-print(customer_one_total)
-
-
+#print("Customer One Total:")
+#print(customer_one_total)
+print("Customer One Total: $%.2f" % customer_one_total) 
+print('\n')
 #CUSTOMER 2 Begin
 customer_two_total = 0
 customer_two_itemization = ""
@@ -66,8 +66,20 @@ customer_two_total = customer_two_total + customer_two_tax
 print("Customer 2 Items:")
 print(customer_two_itemization)
 
-print("Customer Two Total:")
-print(customer_two_total)
+#print("Customer Two Total:")
+#print(customer_two_total)
+print("Customer Two Total: $%.2f" % customer_two_total)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
